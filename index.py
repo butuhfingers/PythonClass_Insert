@@ -3,6 +3,7 @@ from Database import Database
 import uuid
 
 #Test Input
+"""
 firstName = "O'Brian"
 lastName = "Crew"
 address = "287 cutter lane"
@@ -11,9 +12,9 @@ state = "Montana"
 postalCode = "59101-9384"
 phoneNumber = "406-839-3947"
 email = "fakeemail@derkalerk.ninja"
+"""
 
 #Take in input
-"""
 firstName = input("Enter first name: ")
 lastName = input("Enter last name: ")
 address = input("Enter address: ")
@@ -22,7 +23,7 @@ state = input("Enter state: ")
 postalCode = input("Enter postal code: ")
 phoneNumber = input("Enter phone number: ")
 email = input("Enter email: ")
-"""
+
 
 #Start the database connection
 database = Database()
